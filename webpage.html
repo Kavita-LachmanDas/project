@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav{
+            width: auto;
+            height: 10px;
+            padding: 20px;
+        }
+        .nav a{
+              padding: 15px;
+              font-size: 20px;
+              color: blueviolet;
+              
+        }
+        .nav a:hover{
+            text-decoration: underline royalblue;
+            color: seagreen;
+            
+        }
+        .sett{
+            margin-top: -10%;
+        }
+       .searchbar{
+           width: 100%;
+           max-width: 700px;
+           border-radius: 60px;
+           background-color: cornflowerblue;
+           padding: 5px;
+           display: flex;
+           
+           
+           margin-left: 20%;
+           
+           
+       }
+       
+       .searchbar input{
+           flex: 1;
+           border: 0;
+           border: none;
+           outline: none;
+           background-color: transparent;
+           display: inline-block;
+           font-size: 20px;
+           color: #cac7ff;
+       }
+       ::placeholder{
+           color: #5e5c85;
+       }
+       .searchbar button img{
+           width: 25px;
+
+       }
+       .searchbar button{
+           border: none;
+           margin-left: 20%;
+           
+           
+        }
+        
+        .searchbar input{
+            flex: 1;
+            border: 0;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            display: inline-block;
+            font-size: 20px;
+            color: #cac7ff;
+        }
+        ::placeholder{
+            color: #5e5c85;
+        }
+        .searchbar button img{
+            width: 25px;
+ 
+        }
+        .searchbar button{
+            border: none;
+            color: teal;
+            background-color: tomato;
+            text-shadow: 1px 2px 3px red;
+            border-radius: 10%;
+        }
+
+       
+    
+        .nav1{
+           background-color: rgb(194, 149, 133); margin-top: 70px;
+        }
+        .nav2{
+          padding: 20px;
+          text-align: right;
+        }
+        .nav2 a{
+            color: white;
+            text-decoration: none;
+            text-transform: uppercase;
+            text-align: right;
+            padding: 20px;
+        }
+        .nav2 a:hover{
+            color: teal;
+            background-color: tomato;
+            text-shadow: 1px 2px 3px red;
+            border-radius: 10%;
+            }
+        .dis{
+            width: 100%;
+            height: 100vh;
+        }
+        .dis img{
+            margin-left: -25%;
+        }
+        .content{
+            margin-top: -43%;
+            margin-left: 10px;
+        }
+        .content h3{
+            font-size: 40px;
+            margin-left: 20px;
+            color: darkred;
+        }
+        .content p{
+            font-size: 20px;
+            margin-left: 16px;
+            margin-top: -18px;
+        }
+        .content h1{
+            margin-left: 20px;
+            margin-top: -7px;
+            
+        }
+        .content h6{
+            font-size: 20px;
+            margin-top: -5px;
+        }
+
+        .content .hjk{
+            padding: 9px;
+            width: 150px;
+            margin-top: -30px;
+            margin-left: 100px;
+            font-size: 13px;
+        }
+        .content .hjk:hover{
+            zoom: 1;
+            color: darkred;
+            background-color: dimgrey;
+            font-style: italic;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+             cursor: pointer;
+             border-radius: 60px;
+        }
+       .money{
+           width: 100%;
+           
+           margin-top: 200px;
+      display: inline-block;
+    
+      background-color: teal;
+       }
+
+       .vb{
+           font-size: 20px;
+           
+       }
+       .money .ty{
+        display: inline-block;
+       }
+       .lo{
+           margin-top: -10%;
+           margin-left: 300px;
+       }
+    .ko{
+        
+           margin-top: -10%;
+           margin-left: 600px;
+       
+    }
+    .uo{
+           margin-top: -10%;
+           margin-left: 900px;
+       }
+
+       .cards{
+           width: 20%;
+           
+           height: 400px;
+                background-color: burlywood;
+                cursor: pointer;
+                margin: 20px;
+               display: inline-block;
+                box-shadow: 2px 3px 1px 4px black;
+                transition-property: all;
+                transition-duration: 2s;
+                transition-timing-function: ease;
+                transform: translate(20%);
+            }
+            
+            .image img{
+                width: 170px;
+            }
+            .cards:hover{
+                background-color: cadetblue;
+                transition: 2s;
+                top: 10px;
+                bottom: 100px;
+                transform: translate(-20%);
+            }
+            .title h1{
+                 text-align: center;
+                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .description p{
+                text-align: center;
+                   }
+       .bu{
+           justify-content: center;
+           padding: 6px;
+           align-items: center;
+           text-align: center;
+           cursor: pointer;
+           border: 2 solid;
+           border-radius: 10%;
+           background-color: cadetblue;
+           font-size: 20px;
+       }
+       .mn{
+           width: 100%;
+
+       }
+      h1 .kl{
+           background-color: cornsilk;
+           border: 2 solid black;
+       }
+      
+       .health .jk{
+           font-size: 35px;
+           color: brown;
+
+       }
+       .card{
+           width: 98%;
+           
+           height: 400px;
+                background-color: burlywood;
+                cursor: pointer;
+                margin: 20px;
+               display: inline-block;
+                box-shadow: 2px 3px 1px 4px black;
+                transition-property: all;
+                transition-duration: 2s;
+                transition-timing-function: ease;
+                transform: translate(20%);
+            }
+            
+            .imagee img{
+                width: 170px;
+            }
+            .card:hover{
+                background-color: cadetblue;
+                transition: 2s;
+                top: 10px;
+                bottom: 100px;
+                transform: translate(-20%);
+            }
+            .title h1{
+                 text-align: center;
+                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            .description p{
+                text-align: center;
+     }
+      .bus{
+           justify-content: center;
+           padding: 6px;
+           align-items: center;
+           text-align: center;
+           cursor: pointer;
+           border: 2 solid;
+           border-radius: 10%;
+           background-color: cadetblue;
+           font-size: 20px;
+       }        
+       .box{
+           border: 2 solid black;
+           width: 100%;
+           height: 60vh;
+         background-color: darkgray;
+           border-radius: 6%;
+       }
+       .box .rt{
+           margin-top: 120px;
+           margin-left: 130px;
+       }
+
+       .box .vb{
+           margin-left: 100px;
+       }
+       .box .cv {
+           margin-top: -20%;
+            margin-left: 500px;
+       }
+       .box .px{
+           margin-left: 500px;
+           font-size: 20px;
+       }
+       .box .gf{
+           margin-top: -6%;
+           margin-left: 600px;
+           font-size: 20px;
+           
+       }
+       .box .rer{
+           margin-left: 900px;
+           margin-top: -8%;
+       }
+       .box .kik{
+           margin-left: 900px;
+       }
+       .box .yu{
+           margin-left: 900px;
+           padding: 10px;
+           border-radius: 6px;
+           width: 250px;
+       }
+       .box .yu:hover{
+           color: black;
+           background-color: brown;
+       }
+       .vgu{
+           width: 100%;
+           height: 20vh;
+           background-color: darkolivegreen;
+       }
+       .vgu .jh{
+           font-size: 30px;
+           
+       }
+       
+    </style>
+  
+</head>
+<body>
+    <div class="nav">
+        <a href="#">about us</a>
+        <a href="#">my account</a>
+        <a href="#">featured products</a>
+        <a href="#">wishlist</a>
+       <a href="#" class="fg">contact us +92hhxvjksm</a>
+    </div>
+    <div class="logo">
+        <img src="eeeeeee.jpg" alt="" width="160px" height="150px"> </div>
+        <div class="sett">
+              <div class="searchbar">
+                  <form action="" class="searchbar">
+                      <input type="text" placeholder="search anything.......">
+                      <button type="submit"><img src="icon.png" alt="" width="35px" height="30px"></button>
+                  </form>
+              </div>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="nav1">
+        <div class="nav2">
+           
+            <a href="#">HOME</a>
+            <a href="#">SHOP</a>
+            <a href="#">CART</a>
+            <a href="#">CONTACT</a>
+            <a href="#">MY ACCOUNT</a>
+            <a href="#">MY WEBPAGE</a>
+        </div>
+    </div>
+    <div class="dis">
+        <img src="dis.jpg" alt=""> </div>
+        <div class="content">
+        <h3>weekend discount</h3>
+        <p>shopping for the real life</p>
+        <h1>simply better shopping</h1>
+        <h6>big screen in incredibly slims design in your hand</h6>
+        <button class="hjk">shop now</button>
+     </div>
+
+     <div class="money">
+         <img src="cr.jpg" alt="" width="40px" height="30px" class="ty">
+         <h1 class="vb">Money return</h1>
+         <h3 class="bn">back guarantee under 7 days</h3>
+ </div>
+ <div class="lo">
+         <img src="ship.avif" alt="" width="40px" height="30px" class="ty">
+         <h1 class="vb">Free Delivery</h1>
+         <h3 class="bn">Free shipping on all order</h3>
+</div>
+   <div class="ko">
+         <img src="onl.webp" alt="" width="40px" height="30px" class="ty">
+         <h1 class="vb">Online support</h1>
+         <h3 class="bn">support onlone 24 hours a day</h3>
+</div>
+   <div class="uo">
+         <img src="disc.webp" alt="" width="40px" height="30px" class="ty">
+         <h1 class="vb">Member discount</h1>
+         <h3 class="bn">on every order over $100.00</h3>
+</div>
+
+<div>
+    <h1>best sellers</h1> <hr>
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu" >Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="mn">
+     <h1 class="kl">Jewllery & Watches</h1>  <hr>
+     <h1>Best Sellers</h1>
+
+     <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+  
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+    
+    <div class="cards">
+        <div class="image">
+    <img src="headp.jpg" alt="">
+        </div>
+        <div class="title">
+            <h1>HEADPHONES</h1>
+        </div>
+        <div class="description">
+             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+            </P>
+        </div>
+    </div>
+
+    
+    
+     </div>
+
+     <div class="bag"> <hr>
+         <h1>Bags</h1> <hr>
+       
+         <div class="cards">
+            <div class="image">
+        <img src="headp.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>HEADPHONES</h1>
+            </div>
+            <div class="description">
+                 <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+               <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                </P>
+            </div>
+        </div>
+    
+        <div class="cards">
+            <div class="image">
+        <img src="headp.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>HEADPHONES</h1>
+            </div>
+            <div class="description">
+                 <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+               <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                </P>
+            </div>
+        </div>
+    
+        <div class="cards">
+            <div class="image">
+        <img src="headp.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>HEADPHONES</h1>
+            </div>
+            <div class="description">
+                 <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+               <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                </P>
+            </div>
+        </div>
+    
+        <div class="cards">
+            <div class="image">
+        <img src="headp.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>HEADPHONES</h1>
+            </div>
+            <div class="description">
+                 <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+               <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                </P>
+            </div>
+        </div>
+
+                    
+     </div>
+
+     <div class="health"> <hr>
+         <h1 class="gh">Health Beauty and Digital</h1> <hr>
+         <h4 class="jk">Best Sellers</h4>
+         <div class="cards">
+            <div class="image">
+        <img src="headp.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>HEADPHONES</h1>
+            </div>
+            <div class="description">
+                 <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+               <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                </P>
+            </div> </div>
+       
+                  
+   
+        <div class="cards">
+           <div class="image">
+       <img src="headp.jpg" alt="">
+           </div>
+           <div class="title">
+               <h1>HEADPHONES</h1>
+           </div>
+           <div class="description">
+                <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+              <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+               </P>
+           </div> </div>
+
+           <div class="cards">
+            <div class="image">
+        <img src="headp.jpg" alt="">
+            </div>
+            <div class="title">
+                <h1>HEADPHONES</h1>
+            </div>
+            <div class="description">
+                 <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+               <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                </P>
+            </div> </div>
+
+            <div class="cards">
+                <div class="image">
+            <img src="headp.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h1>HEADPHONES</h1>
+                </div>
+                <div class="description">
+                     <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                   <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                    </P>
+                </div> </div>
+
+
+                <div class="hea"> <hr>
+                    <h1 class="ghg">Sports</h1> <hr>
+                    <h4 class="jk">Best Sellers</h4>
+                    <div class="cards">
+                       <div class="image">
+                   <img src="headp.jpg" alt="">
+                       </div>
+                       <div class="title">
+                           <h1>HEADPHONES</h1>
+                       </div>
+                       <div class="description">
+                            <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                          <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                           </P>
+                       </div> </div>
+                  
+                       <div class="cards">
+                        <div class="image">
+                    <img src="headp.jpg" alt="">
+                        </div>
+                        <div class="title">
+                            <h1>HEADPHONES</h1>
+                        </div>
+                        <div class="description">
+                             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                            </P>
+                        </div> </div>
+                        
+                        
+                        <div class="cards">
+                            <div class="image">
+                        <img src="headp.jpg" alt="">
+                            </div>
+                            <div class="title">
+                                <h1>HEADPHONES</h1>
+                            </div>
+                            <div class="description">
+                                 <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                               <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                                </P>
+                            </div> </div>
+
+                            <div class="cards">
+                                <div class="image">
+                            <img src="headp.jpg" alt="">
+                                </div>
+                                <div class="title">
+                                    <h1>HEADPHONES</h1>
+                                </div>
+                                <div class="description">
+                                     <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                                   <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                                    </P>
+                                </div> </div>
+
+                                <div class="hea"> <hr>
+                                    <h1 class="ghf">Smart phones and Tablets</h1> <hr>
+                                    <h4 class="jk">Best Sellers</h4>
+                                    <div class="cards">
+                                       <div class="image">
+                                   <img src="headp.jpg" alt="">
+                                       </div>
+                                       <div class="title">
+                                           <h1>HEADPHONES</h1>
+                                       </div>
+                                       <div class="description">
+                                            <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                                          <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                                           </P>
+                                       </div> </div> 
+                                       
+                                       
+                                       <div class="cards">
+                                        <div class="image">
+                                    <img src="headp.jpg" alt="">
+                                        </div>
+                                        <div class="title">
+                                            <h1>HEADPHONES</h1>
+                                        </div>
+                                        <div class="description">
+                                             <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                                           <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                                            </P>
+                                        </div> </div> 
+
+                                        <div class="cards">
+                                            <div class="image">
+                                        <img src="headp.jpg" alt="">
+                                            </div>
+                                            <div class="title">
+                                                <h1>HEADPHONES</h1>
+                                            </div>
+                                            <div class="description">
+                                                 <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                                               <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                                                </P>
+                                            </div> </div> 
+
+                                            <div class="cards">
+                                                <div class="image">
+                                            <img src="headp.jpg" alt="">
+                                                </div>
+                                                <div class="title">
+                                                    <h1>HEADPHONES</h1>
+                                                </div>
+                                                <div class="description">
+                                                     <P>With over 4 million digital pixels, the display is uniquely suited for <br> scientific and technical applications such as visual7al data.
+                                                   <br> <hr>   <h1 class="bu">Add to cart</h1><hr>
+                                                    </P>
+                                                </div> </div> 
+
+           <div class="box">
+               <img src="eeeeeee.jpg" alt="" width="140px" height="130px" class="rt">
+               <h1 class="vb">Behind the word mountains, <br> far from the countries <br> Vokalia and Consonantia, <br> there live the blind texts 
+                they <br> live</h1>
+                <h1 class="cv">Useful Links</h1>
+                <p class="px">Home</p>
+                <p class="px">products</p>
+                <p class="px">cart</p>
+                <p class="gf">Checkout</p>
+                <p class="gf">My account</p>
+                <p class="gf">Contact</p>
+
+                <h1 class="rer">Contact Us</h1>
+                <h3 class="kik">Don’t miss our future updates! Get Subscribed Today!</h3>
+                <input type="text" placeholder="Your Mail Here........." class="yu">
+                <input type="submit">
+           </div>            
+           
+           <div class="vgu">
+      <h1 class="jh">©2024 All Rights Reserved.</h1>
+      <h1 class="hu">ADDRESS: eroz complex near nasheman cinema</h1>
+           </div>
+</body>
+</html>
